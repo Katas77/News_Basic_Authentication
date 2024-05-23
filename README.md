@@ -14,10 +14,10 @@
 - create and manage news comments,
 - implements news filtering by categories and authors.
 ## Security:
-- searching for all users can only be performed by a client with the ROLE_ADMIN role;
-- a client with one of the following roles can receive information about a user by ID: ROLE_USER, ROLE_ADMIN, ROLE_MODERATOR (a user who has only ROLE_USER can only receive information about himself);
-- a client with one of the following roles can update user information: ROLE_USER, ROLE_ADMIN, ROLE_MODERATOR (a user who has only ROLE_USER has the right to update only information about himself);
-- a client with one of the following roles can delete a user profile: ROLE_USER, ROLE_ADMIN, ROLE_MODERATOR (a user who only has ROLE_USER cannot delete the profiles of other users).
+- Searching for all users can only be performed by a client with the ROLE_ADMIN role;
+- A client with one of the following roles can receive information about a user by ID: ROLE_USER, ROLE_ADMIN, ROLE_MODERATOR (a user who has only ROLE_USER can only receive information about himself);
+- A client with one of the following roles can update user information: ROLE_USER, ROLE_ADMIN, ROLE_MODERATOR (a user who has only ROLE_USER has the right to update only information about himself);
+- A client with one of the following roles can delete a user profile: ROLE_USER, ROLE_ADMIN, ROLE_MODERATOR (a user who only has ROLE_USER cannot delete the profiles of other users).
 
 
 ## Prerequisites
